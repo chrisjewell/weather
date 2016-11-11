@@ -372,11 +372,6 @@ for line in file:
 	day = 0
 
 
-	
-for elem in ELEMENT:
-
-	DAY.append(day)
-
 
 # Write csv file
 # NOW IT WORKS!
