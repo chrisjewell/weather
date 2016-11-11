@@ -24,8 +24,11 @@ SFLAG = []
 # Create iterable list to write to dataframe
 
 for line in file:
-
-	#day = day + 1
+	
+	# Each block of code reads one data element into its own row, creating a distinct row for each ELEMENT value for each day of the month.
+	# Essentially, this transposes the daily data into rows, and the ELEMENT values into columns. This will make it easier to analyze and plot.
+	
+	day = day + 1
 	ID.append(line[0:11])
 	YEAR.append(line[11:15])
 	MONTH.append(line[15:17])
@@ -34,217 +37,339 @@ for line in file:
 	MFLAG.append(line[26:27])
 	QFLAG.append(line[27:28])
 	SFLAG.append(line[28:29])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[29:34])
 	MFLAG.append(line[34:35])
 	QFLAG.append(line[35:36])
 	SFLAG.append(line[36:37])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[37:42])
 	MFLAG.append(line[42:43])
 	QFLAG.append(line[43:44])
 	SFLAG.append(line[44:45])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[45:50])
 	MFLAG.append(line[50:51])
 	QFLAG.append(line[51:52])
 	SFLAG.append(line[52:53])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[53:58])
 	MFLAG.append(line[58:59])
 	QFLAG.append(line[59:60])
 	SFLAG.append(line[60:61])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[61:66])
 	MFLAG.append(line[66:67])
 	QFLAG.append(line[67:68])
 	SFLAG.append(line[68:69])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[69:74])
 	MFLAG.append(line[74:75])
 	QFLAG.append(line[75:76])
 	SFLAG.append(line[76:77])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[77:82])
 	MFLAG.append(line[82:83])
 	QFLAG.append(line[83:84])
 	SFLAG.append(line[84:85])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[85:90])
 	MFLAG.append(line[90:91])
 	QFLAG.append(line[91:92])
 	SFLAG.append(line[92:93])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[93:98])
 	MFLAG.append(line[98:99])
 	QFLAG.append(line[99:100])
 	SFLAG.append(line[100:101])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[101:106])
 	MFLAG.append(line[106:107])
 	QFLAG.append(line[107:108])
 	SFLAG.append(line[108:109])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[109:114])
 	MFLAG.append(line[114:115])
 	QFLAG.append(line[115:116])
 	SFLAG.append(line[116:117])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[117:122])
 	MFLAG.append(line[122:123])
 	QFLAG.append(line[123:124])
 	SFLAG.append(line[124:125])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[125:130])
 	MFLAG.append(line[130:131])
 	QFLAG.append(line[131:132])
 	SFLAG.append(line[132:133])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[133:138])
 	MFLAG.append(line[138:139])
 	QFLAG.append(line[139:140])
 	SFLAG.append(line[140:141])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[141:146])
 	MFLAG.append(line[146:147])
 	QFLAG.append(line[147:148])
 	SFLAG.append(line[148:149])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[149:154])
 	MFLAG.append(line[154:155])
 	QFLAG.append(line[155:156])
 	SFLAG.append(line[156:157])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[157:162])
 	MFLAG.append(line[162:163])
 	QFLAG.append(line[163:164])
 	SFLAG.append(line[164:165])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[165:170])
 	MFLAG.append(line[170:171])
 	QFLAG.append(line[171:172])
 	SFLAG.append(line[172:173])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[173:178])
 	MFLAG.append(line[178:179])
 	QFLAG.append(line[179:180])
 	SFLAG.append(line[180:181])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[181:186])
 	MFLAG.append(line[186:187])
 	QFLAG.append(line[187:188])
 	SFLAG.append(line[188:189])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[189:194])
 	MFLAG.append(line[194:195])
 	QFLAG.append(line[195:196])
 	SFLAG.append(line[196:197])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[197:202])
 	MFLAG.append(line[202:203])
 	QFLAG.append(line[203:204])
 	SFLAG.append(line[204:205])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[205:210])
 	MFLAG.append(line[210:211])
 	QFLAG.append(line[211:212])
 	SFLAG.append(line[212:213])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[213:218])
 	MFLAG.append(line[218:219])
 	QFLAG.append(line[219:220])
 	SFLAG.append(line[220:221])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[221:226])
 	MFLAG.append(line[226:227])
 	QFLAG.append(line[227:228])
 	SFLAG.append(line[228:229])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[229:234])
 	MFLAG.append(line[234:235])
 	QFLAG.append(line[235:236])
 	SFLAG.append(line[236:237])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[237:242])
 	MFLAG.append(line[242:243])
 	QFLAG.append(line[243:244])
 	SFLAG.append(line[244:245])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[245:250])
 	MFLAG.append(line[250:251])
 	QFLAG.append(line[251:252])
 	SFLAG.append(line[252:253])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[253:258])
 	MFLAG.append(line[258:259])
 	QFLAG.append(line[259:260])
 	SFLAG.append(line[260:261])
-	#DAY.append(day)
+	DAY.append(day)
 	
-	#day = day + 1
+	day = day + 1
+	ID.append(line[0:11])
+	YEAR.append(line[11:15])
+	MONTH.append(line[15:17])
+	ELEMENT.append(line[17:21])
 	VALUE.append(line[261:266])
 	MFLAG.append(line[266:267])
 	QFLAG.append(line[267:268])
 	SFLAG.append(line[268:269])
-	#DAY.append(day)
+	DAY.append(day)
+
+	day = 0
 
 
 	
@@ -285,7 +410,5 @@ df = pd.DataFrame(data = stationdata, columns=['ID', 'YEAR', 'MONTH', 'DAY', 'EL
 
 
 g.CleanStationData(df)
-
-df.to_csv('test.csv',index=True,header=True)
 
 print df
